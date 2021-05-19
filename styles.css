@@ -1,0 +1,31 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #d7dbde;
+}
+
+.users-well {
+    margin-top: 50px !important;
+    padding: 35px;
+    background-color: #d7dbde;
+    border-radius: 40px;
+    box-shadow: 13px 13px 20px #a8abad, -13px -13px 20px #ebf1f5;
+}
+
+hr {
+    background-color: #FFC107;
+    opacity: 1;
+    border: 0;
+}
+
+.containerInfo {
+    width: 70%;
+}
+
+#allUsers{
+    max-width: 110px;
+}
+
