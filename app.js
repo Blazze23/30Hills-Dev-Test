@@ -69,7 +69,8 @@ function userInfo() {
            $("#friendCard").append("<div class='card text-black bg-warning mb-3' style='max-width: 15rem;'><div class='card-header' id='friendName'>"+value.firstName+" "+value.surname+"</div><div class='card-body'><p class='card-title'>Age: "+value.age+"</p><p class='card-text'>Gender: "+value.gender+"</p></div></div>")
             //    Finding friends of friends
             for(let i = 0; i<value.friends.length; i++) {
-                if(value.friends[i] != local_userID && !friendsID.includes(value.friends[i])){
+                console.log(value.friends[i]);
+                if(value.friends[i] != local_userID && !friendsID.includes(value.friends[i]) && !friendsOfFriends.includes(value.friends[i])){
                 friendsOfFriends.push(value.friends[i]);
                 }
         }
