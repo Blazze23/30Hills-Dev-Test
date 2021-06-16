@@ -1,6 +1,6 @@
 # 30Hills-Dev-Test
 
-This was a test for junior Front-end developer position at 30 Hills company.
+This was a test for junior Front-end developer position at 30 Hills company. Time limit for this test was 48 hours.
 
 The goal of this test is to create a method of examining a Social Network. You are given dataset (data.json) representing a group of people, in the form of a social graph. Each person listed has one or more connections to the group.
 
